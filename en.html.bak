@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meshi Vaknin - Professional Facial & Body Treatments</title>
+    <meta name="description" content="Professional facial and body firming treatments by Meshi Vaknin, certified P.M.E cosmetician. Book your appointment today.">
+    <meta name="author" content="Meshi Vaknin">
+    <meta name="developer" content="ELIAV YIFRAH">
+    <meta name="keywords" content="cosmetician, facial treatments, body firming, beauty, skincare, Meshi Vaknin">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://fonts.gstatic.com" as="font" crossorigin>
+    <link rel="preload" href="https://cdnjs.cloudflare.com" as="font" crossorigin>
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://meshi-vaknin.com/">
+    <meta property="og:title" content="Meshi Vaknin - Professional Facial & Body Treatments">
+    <meta property="og:description" content="Professional facial and body firming treatments by Meshi Vaknin, certified P.M.E cosmetician. Book your appointment today.">
+    <meta property="og:image" content="https://meshi-vaknin.com/images/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://meshi-vaknin.com/">
+    <meta property="twitter:title" content="Meshi Vaknin - Professional Facial & Body Treatments">
+    <meta property="twitter:description" content="Professional facial and body firming treatments by Meshi Vaknin, certified P.M.E cosmetician. Book your appointment today.">
+    <meta property="twitter:image" content="https://meshi-vaknin.com/images/og-image.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://meshi-vaknin.com/">
+    
+    <!-- Theme Color for Mobile Browsers -->
+    <meta name="theme-color" content="#e8a1a1">
+    
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#e8a1a1">
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preconnect" href="https://flagcdn.com" crossorigin>
+    
+    <!-- Structured Data / JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BeautySalon",
+        "name": "Meshi Vaknin Cosmetics",
+        "description": "Professional facial and body firming treatments by Meshi Vaknin, certified P.M.E cosmetician.",
+        "image": "https://meshi-vaknin.com/images/og-image.jpg",
+        "telephone": "+1234567890",
+        "email": "contact@meshi-vaknin.com",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123 Beauty St",
+            "addressLocality": "City",
+            "postalCode": "12345",
+            "addressCountry": "IL"
+        },
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                ],
+                "opens": "09:00",
+                "closes": "18:00"
+            },
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Friday",
+                "opens": "09:00",
+                "closes": "14:00"
+            }
+        ],
+        "priceRange": "$$",
+        "sameAs": [
+            "https://www.facebook.com/meshivaknin",
+            "https://www.instagram.com/meshivaknin",
+            "https://wa.me/1234567890"
+        ]
+    }
+    </script>
+    
+    <!-- Google Analytics (replace with your tracking ID) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    
+    <!-- Custom JS -->
+    <script src="js/main.js" defer></script>
+</head>
+<body class="preload">
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- Language Switcher -->
+    <div class="lang-switch">
+        <button class="lang-btn" id="langToggle">
+            <img src="https://flagcdn.com/w20/il.png" alt="עברית" class="lang-flag">
+            <span>עברית</span>
+        </button>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <div class="header-container">
+                <a href="#home" class="logo">
+                    <div class="logo-initials">MV</div>
+                    <div class="logo-text">
+                        <div class="name">Meshi Vaknin</div>
+                        <div class="tagline">Professional Aesthetic Treatments</div>
+                    </div>
+                </a>
+                
+                <nav>
+                    <ul>
+                        <li><a href="#home" class="active">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Meshi Vaknin</h1>
+                <h2>Professional Facial & Body Treatments</h2>
+                <p>Certified P.M.E cosmetician</p>
+                <a href="#contact" class="btn">Book Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>About Me</h2>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Welcome to my professional aesthetic treatments studio. I specialize in advanced facial and body treatments to help you look and feel your best.</p>
+                        <p>With years of experience and certification as a P.M.E cosmetician, I provide personalized care using the latest techniques and highest quality products.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>My Services</h2>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-spa"></i>
+                        </div>
+                        <h3>Facial Treatments</h3>
+                        <p>Professional facial treatments tailored to your skin's unique needs, using premium products and advanced techniques.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-hand-holding-heart"></i>
+                        </div>
+                        <h3>Body Firming</h3>
+                        <p>Advanced body firming treatments to tone and tighten your skin, leaving you feeling confident and rejuvenated.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Special Treatments</h3>
+                        <p>Customized treatment plans designed to address your specific concerns and help you achieve your beauty goals.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Contact Me</h2>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Get In Touch</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Beauty Street, Tel Aviv, Israel</p>
+                        <p><i class="fas fa-phone"></i> +972 50-123-4567</p>
+                        <p><i class="fas fa-envelope"></i> contact@meshivaknin.com</p>
+                        <div class="social-links">
+                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="">Select Service</option>
+                                <option value="facial">Facial Treatment</option>
+                                <option value="body">Body Firming</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-initials">MV</span>
+                    <span class="logo-text">Meshi Vaknin</span>
+                </div>
+                <p class="tagline">Beauty. Care. Confidence.</p>
+                <p class="copyright">&copy; <span id="current-year">2023</span> MV Cosmetics. All rights reserved.</p>
+                <p class="developer-credit">Website by <a href="#" target="_blank">ELIAV YIFRAH</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Remove preload class after page load -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.body.classList.remove('preload');
+        });
+    </script>
+    <script>
+        // Set current year in footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        // Language switcher
+        document.getElementById('langToggle').addEventListener('click', function() {
+            window.location.href = 'index.html';
+        });
+
+        // Mobile menu toggle
+        const menuToggle = document.querySelector('.mobile-menu-btn');
+        const nav = document.querySelector('nav');
+        
+        if (menuToggle) {
+            menuToggle.addEventListener('click', function(e) {
+                e.stopPropagation();
+                nav.classList.toggle('active');
+                this.classList.toggle('active');
+                document.body.style.overflow = nav.classList.contains('active') ? 'hidden' : '';
+            });
+        }
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function(e) {
+            if (!e.target.closest('nav') && !e.target.classList.contains('mobile-menu-btn')) {
+                nav.classList.remove('active');
+                document.querySelector('.mobile-menu-btn').classList.remove('active');
+                document.body.style.overflow = '';
+            }
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    // Close mobile menu if open
+                    nav.classList.remove('active');
+                    menuToggle.classList.remove('active');
+                    document.body.style.overflow = '';
+                    
+                    // Scroll to target
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Update URL without adding to history
+                    history.pushState(null, '', targetId);
+                }
+            });
+        });
+
+        // Header scroll effect
+        const header = document.getElementById('header');
+        let lastScroll = 0;
+        
+        window.addEventListener('scroll', function() {
+            const currentScroll = window.pageYOffset;
+            
+            if (currentScroll <= 0) {
+                header.classList.remove('scrolled');
+                return;
+            }
+            
+            if (currentScroll > lastScroll && currentScroll > 100) {
+                // Scrolling down
+                header.style.transform = 'translateY(-100%)';
+            } else {
+                // Scrolling up
+                header.style.transform = 'translateY(0)';
+            }
+            
+            if (currentScroll > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+            
+            lastScroll = currentScroll;
+        });
+    </script>
+</body>
+</html>
